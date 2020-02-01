@@ -1,1 +1,34 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+$heading-font: Raleway;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+$text-font: Montserrat, sans-serif;
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+p {
+  font-family: $text-font;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $heading-font;
+  font-weight: 900;
+
+  color: #0E1116;
+}
+
+h1, h2, h3 {
+  font-style: italic;
+
+}
+
+.container {
+  background-color: #F5F5F5;
+}
