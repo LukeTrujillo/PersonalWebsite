@@ -6,6 +6,12 @@ $heading-font: Raleway;
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 $text-font: Montserrat, sans-serif;
 
+//font awe4some
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
 // Variables
 @import 'variables';
 
@@ -31,4 +37,13 @@ h1, h2, h3 {
 
 .container {
   background-color: #F5F5F5;
+}
+
+.large-icon i {
+  font-size: 5rem;
+}
+
+.large-icon p {
+  margin-bottom: 0;
+  text-align: center;
 }

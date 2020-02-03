@@ -30,14 +30,46 @@
         </p>
         <h4>Programming Skills</h4>
         <div class="d-flex flex-row justify-content-between flex-wrap" style="border: 0.20rem solid #DE1A1A; border-radius:1rem;">
-            <img src="/img/java.png" class="img-fluid p-3" style="max-width: 100px;">
-            <img src="/img/java.png" class="img-fluid p-3" style="max-width: 100px;">
-            <img src="/img/java.png" class="img-fluid p-3" style="max-width: 100px;">
-            <img src="/img/java.png" class="img-fluid p-3" style="max-width: 100px;">
-            <img src="/img/java.png" class="img-fluid p-3" style="max-width: 100px;">
-            <img src="/img/java.png" class="img-fluid p-3" style="max-width: 100px;">
-            <img src="/img/java.png" class="img-fluid p-3" style="max-width: 100px;">
-            <img src="/img/java.png" class="img-fluid p-3" style="max-width: 100px;">
+          <div class="large-icon">
+            <i class="fab fa-java"></i>
+            <p>Java</p>
+          </div>
+          <div class="large-icon">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS</p>
+          </div>
+          <div class="large-icon">
+            <i class="fab fa-js"></i>
+            <p>Javascript</p>
+          </div>
+          <div class="large-icon">
+            <i class="fab fa-php"></i>
+            <p>PHP</p>
+          </div>
+          <div class="large-icon">
+            <i class="fab fa-laravel"></i>
+            <p>Laravel</p>
+          </div>
+          <div class="large-icon">
+            <i class="fab fab fa-github"></i>
+            <p>Database</p>
+          </div>
+          <div class="large-icon">
+            <i class="fas fa-database"></i>
+            <p>SQL</p>
+          </div>
+          <div class="large-icon">
+            <i class="fab fa-html5"></i>
+            <p>HTML5</p>
+          </div>
+          <div class="large-icon">
+            <i class="fab fa-react"></i>
+            <p>React.js</p>
+          </div>
+          <div class="large-icon">
+            <i class="fas fa-mobile-alt"></i>
+            <p>Mobile Development</p>
+          </div>
 
         </div>
       </div>
