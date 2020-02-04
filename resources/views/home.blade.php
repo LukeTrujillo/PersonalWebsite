@@ -28,49 +28,151 @@
           sit amet turpis consequat, et efficitur leo sodales. Nullam maximus leo a justo
           imperdiet, eget cursus quam commodo.
         </p>
-        <h4>Programming Skills</h4>
-        <div class="d-flex flex-row justify-content-between flex-wrap" style="border: 0.20rem solid #DE1A1A; border-radius:1rem;">
-          <div class="large-icon">
-            <i class="fab fa-java"></i>
-            <p>Java</p>
+
+        <h3 class="text-center">Development Skills</h3>
+        <div class="row">
+          <div class="col-12 col-md-6">
+
+            <h5 class="text-center">Platform / APIs</h5>
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <div class="large-icon p-3">
+                <i class="fab fa-bootstrap"></i>
+                <p><small>Bootstrap 3/4</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-css3-alt"></i>
+                <p><small>CSS</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-html5"></i>
+                <p><small>HTML5</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-js"></i>
+                <p><small>Javascript</small></p>
+              </div>
+            </div>
+            <p class="text-center"><b>and PHP, React.js, Vue.js, Wordpress</b></p>
+
           </div>
-          <div class="large-icon">
-            <i class="fab fa-css3-alt"></i>
-            <p>CSS</p>
+          <div class="col-12 col-md-6">
+
+            <h5 class="text-center">Platform / APIs</h5>
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <div class="large-icon p-3">
+                <i class="fab fa-bootstrap"></i>
+                <p><small>Bootstrap 3/4</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-css3-alt"></i>
+                <p><small>CSS</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-html5"></i>
+                <p><small>HTML5</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-js"></i>
+                <p><small>Javascript</small></p>
+              </div>
+            </div>
+            <p class="text-center"><b>and PHP, React.js, Vue.js, Wordpress</b></p>
+
           </div>
-          <div class="large-icon">
-            <i class="fab fa-js"></i>
-            <p>Javascript</p>
+          <div class="col-12 col-md-6">
+
+            <h5 class="text-center">Platform / APIs</h5>
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <div class="large-icon p-3">
+                <i class="fab fa-bootstrap"></i>
+                <p><small>Bootstrap 3/4</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-css3-alt"></i>
+                <p><small>CSS</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-html5"></i>
+                <p><small>HTML5</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-js"></i>
+                <p><small>Javascript</small></p>
+              </div>
+            </div>
+            <p class="text-center"><b>and PHP, React.js, Vue.js, Wordpress</b></p>
           </div>
-          <div class="large-icon">
-            <i class="fab fa-php"></i>
-            <p>PHP</p>
-          </div>
-          <div class="large-icon">
-            <i class="fab fa-laravel"></i>
-            <p>Laravel</p>
-          </div>
-          <div class="large-icon">
-            <i class="fab fab fa-github"></i>
-            <p>Database</p>
-          </div>
-          <div class="large-icon">
-            <i class="fas fa-database"></i>
-            <p>SQL</p>
-          </div>
-          <div class="large-icon">
-            <i class="fab fa-html5"></i>
-            <p>HTML5</p>
-          </div>
-          <div class="large-icon">
-            <i class="fab fa-react"></i>
-            <p>React.js</p>
-          </div>
-          <div class="large-icon">
-            <i class="fas fa-mobile-alt"></i>
-            <p>Mobile Development</p>
+          <div class="col-12 col-md-6">
+            <h5 class="text-center">Platform / APIs</h5>
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <div class="large-icon p-3">
+                <i class="fab fa-bootstrap"></i>
+                <p><small>Bootstrap 3/4</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-css3-alt"></i>
+                <p><small>CSS</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-html5"></i>
+                <p><small>HTML5</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-js"></i>
+                <p><small>Javascript</small></p>
+              </div>
+            </div>
+            <p class="text-center"><b>and PHP, React.js, Vue.js, Wordpress</b></p>
           </div>
 
+        </div>
+
+        <h3 class="text-center">Engineering Skills</h3>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h5 class="text-center">Product Design</h5>
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <div class="large-icon p-3">
+                <i class="fab fa-bootstrap"></i>
+                <p><small>Bootstrap 3/4</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-css3-alt"></i>
+                <p><small>CSS</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-html5"></i>
+                <p><small>HTML5</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-js"></i>
+                <p><small>Javascript</small></p>
+              </div>
+            </div>
+            <p class="text-center"><b>and PHP, React.js, Vue.js, Wordpress</b></p>
+          </div>
+          <div class="col-12 col-md-6">
+            <h5 class="text-center">Platform / APIs</h5>
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <div class="large-icon p-3">
+                <i class="fab fa-bootstrap"></i>
+                <p><small>Bootstrap 3/4</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-css3-alt"></i>
+                <p><small>CSS</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-html5"></i>
+                <p><small>HTML5</small></p>
+              </div>
+              <div class="large-icon p-3">
+                <i class="fab fa-js"></i>
+                <p><small>Javascript</small></p>
+              </div>
+            </div>
+            <p class="text-center"><b>and PHP, React.js, Vue.js, Wordpress</b></p>
+          </div>
         </div>
       </div>
   </div>

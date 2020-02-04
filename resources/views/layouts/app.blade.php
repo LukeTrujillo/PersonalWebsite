@@ -14,10 +14,19 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
+      @component("components.banner")
+      @endcomponent
+      @component("components.navbar")
+      @endcomponent
+      @component("components.jumbotron")
+      @endcomponent
 
-      <div class="container">
-        @yield("content")
+
+      <div class="container-bg">
+        <div class="container">
+          @yield("content")
+        </div>
       </div>
-      
+
     </body>
 </html>
