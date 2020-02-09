@@ -3,6 +3,14 @@
 
 @section('content')
   <div class="row">
+    <div class="col-12">
+      <img src="/img/trujillo.jpeg" class="img-thumbnail rounded-circle shadow mx-auto d-block" style="max-width: 400px;">
+    </div>
+
+  </div>
+
+
+  <div class="row">
       <div class="col-12">
         <h1>About</h1>
         <p>
