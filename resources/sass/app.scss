@@ -18,6 +18,10 @@ $text-font: Montserrat, sans-serif;
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+body {
+  background: rgb(222,26,26);
+  background: linear-gradient(180deg, rgba(222,26,26,0.5) 0%, rgba(222,26,26,1) 100%);
+}
 
 p {
   font-family: $text-font;
@@ -40,7 +44,7 @@ h1, h2, h3 {
 }
 
 .large-icon i {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .large-icon p {
   margin-bottom: 0;

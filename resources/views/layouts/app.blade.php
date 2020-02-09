@@ -14,18 +14,16 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-      @component("components.banner")
-      @endcomponent
-      @component("components.navbar")
-      @endcomponent
-      @component("components.jumbotron")
-      @endcomponent
+      {{-- @component("components.banner")
+      @endcomponent --}}
+      {{--  @component("components.navbar")
+      @endcomponent --}}
+      {{-- @component("components.jumbotron")
+      @endcomponent --}}
 
+      <div class="container container-bg my-5 p-5 rounded shadow-lg">
 
-      <div class="container-bg">
-        <div class="container">
-          @yield("content")
-        </div>
+        @yield("content")
       </div>
 
     </body>
