@@ -13,18 +13,22 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
-    <body>
-      {{-- @component("components.banner")
-      @endcomponent --}}
-      {{--  @component("components.navbar")
-      @endcomponent --}}
-      {{-- @component("components.jumbotron")
-      @endcomponent --}}
+    <body id="fixed-background">
+        {{-- @component("components.banner")
+        @endcomponent --}}
 
-      <div class="container container-bg my-5 p-5 rounded shadow-lg">
+        {{-- @component("components.navbar")
+        @endcomponent --}}
 
-        @yield("content")
-      </div>
+        {{-- @component("components.jumbotron")
+        @endcomponent --}}
 
+        <div class="container shadow-lg" id="main-page">
+
+          @component("components.businesscard")
+          @endcomponent
+
+          @yield("content")
+        </div>
     </body>
 </html>

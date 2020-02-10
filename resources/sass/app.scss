@@ -20,7 +20,9 @@ $text-font: Montserrat, sans-serif;
 
 body {
   background: rgb(222,26,26);
-  background: linear-gradient(180deg, rgba(222,26,26,0.5) 0%, rgba(222,26,26,1) 100%);
+  background: linear-gradient(180deg, rgba(222,26,26,0.5) 0%, rgba(222,26,26,0.75) 100%);
+
+  background-attachment: fixed!important;
 }
 
 p {
@@ -38,15 +40,28 @@ h1, h2, h3 {
   font-style: italic;
 
 }
-
-.container-bg {
-  background-color: #f8fafc;
-}
-
 .large-icon i {
   font-size: 3rem;
 }
 .large-icon p {
   margin-bottom: 0;
   text-align: center;
+}
+
+#main-page {
+  border-radius: 1rem;
+  padding: 3rem !important;
+
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+
+  background-color: $body-bg;
+}
+
+.businesscard img {
+  max-width: 200px;
+}
+.businesscard h1, h2, h3, h4, h5 {
+  color: $body-bg !important;
+  font-style: normal !important;
 }
