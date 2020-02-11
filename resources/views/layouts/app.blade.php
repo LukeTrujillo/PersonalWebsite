@@ -14,21 +14,13 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body id="fixed-background">
-        {{-- @component("components.banner")
-        @endcomponent --}}
-
-        {{-- @component("components.navbar")
-        @endcomponent --}}
-
-        {{-- @component("components.jumbotron")
-        @endcomponent --}}
-
-        <div class="container shadow-lg" id="main-page">
-
+        <!--wrapper-->
+        <div class="shadow-lg" id="wrapper">
           @component("components.businesscard")
           @endcomponent
-
-          @yield("content")
+          <div class="container" id="main-page">
+            @yield("content")
+          </div>
         </div>
     </body>
 </html>
