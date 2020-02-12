@@ -3,6 +3,8 @@
 
 @section('content')
 
+  @component("components.activities")
+  @endcomponent
 
   <div class="row">
       <div class="col-12">

@@ -17290,6 +17290,7 @@ body {
   background: #de1a1a;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(222, 26, 26, 0.5)), to(rgba(222, 26, 26, 0.75)));
   background: linear-gradient(180deg, rgba(222, 26, 26, 0.5) 0%, rgba(222, 26, 26, 0.75) 100%);
+  background-repeat: no-repeat;
   background-attachment: fixed !important;
 }
 
@@ -17343,7 +17344,7 @@ h3 {
   border-style: solid;
   border-width: 0.5rem;
   border-color: #0E1116;
-  border-radius: 1rem 0rem 0rem 0rem;
+  border-radius: 1rem 1rem 0rem 0rem;
 }
 
 .businesscard h1,
@@ -17355,16 +17356,25 @@ h5 {
   font-style: normal !important;
 }
 
+.businesscard img {
+  max-width: 400px;
+  border: solid #f8fafc 0.5rem;
+}
+
 .businesscard {
   border-radius: 0.5rem;
 }
 
-.attention-header {
+.attention-header-2 {
   font-size: 3rem;
 }
 
 .attention-header {
   font-size: 5rem;
   margin-bottom: 0rem;
+}
+
+.activity img {
+  max-width: 200px;
 }
 
