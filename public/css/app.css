@@ -17378,3 +17378,26 @@ h5 {
   max-width: 200px;
 }
 
+.line-header hr {
+  height: 0.3rem;
+  width: 100%;
+  border: 0;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.line-header .left-hr {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(248, 250, 252, 0)), color-stop(50%, rgba(222, 26, 26, 0.75)));
+  background-image: linear-gradient(to right, rgba(248, 250, 252, 0), rgba(222, 26, 26, 0.75) 50%);
+}
+
+.line-header .right-hr {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(248, 250, 252, 0)), color-stop(50%, rgba(222, 26, 26, 0.75)));
+  background-image: linear-gradient(to left, rgba(248, 250, 252, 0), rgba(222, 26, 26, 0.75) 50%);
+}
+
+.line-header h1 {
+  font-style: normal;
+  margin-bottom: 0rem;
+}
+

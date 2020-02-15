@@ -3,7 +3,8 @@
 
 @section('content')
 
-  @component("components.activities")
+  @component("components.line_header")
+    Activities
   @endcomponent
 
   <div class="row">
