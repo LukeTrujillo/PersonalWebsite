@@ -38,25 +38,30 @@
     <div class="col-12">
         <div class="d-flex flex-row justify-content-around align-items-center">
           <div class="large-icon p-3 text-center">
-            <i class="fas fa-database"></i>
+            <i class="fas fa-database gray-icon"></i>
             <p><small>SQL, Oracle, MongoDB</small></p>
           </div>
 
           <i class="fas fa-arrow-alt-circle-right arrow-icon"></i>
 
           <div class="large-icon p-3 text-center">
-            <i class="fas fa-server"></i>
+            <i class="fas fa-server gray-icon"></i>
             <p><small>PHP, Java, C, C++</small></p>
           </div>
 
           <i class="fas fa-arrow-alt-circle-right arrow-icon"></i>
 
           <div class="large-icon p-3 text-center">
-            <i class="fas fa-desktop"></i>
+            <i class="fas fa-desktop gray-icon"></i>
             <p><small>JS, CSS, HTML</small></p>
           </div>
-
         </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
+          maximus leo a justo imperdiet, eget cursus quam commodo. Praesent tellus diam,
+          finibus ut feugiat quis, consequat in mauris.
+        </p>
     </div>
   </div>
 
