@@ -26,6 +26,43 @@
         </p>
       </div>
   </div>
+  @component("components.line_header")
+  Skills
+  @endcomponent
+  <div class="row">
+    <div class="col-12">
+      <h4>Full Stack Development</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+        <div class="d-flex flex-row justify-content-around align-items-center">
+          <div class="large-icon p-3 text-center">
+            <i class="fas fa-database"></i>
+            <p><small>SQL, Oracle, MongoDB</small></p>
+          </div>
+
+          <i class="fas fa-arrow-alt-circle-right arrow-icon"></i>
+
+          <div class="large-icon p-3 text-center">
+            <i class="fas fa-server"></i>
+            <p><small>PHP, Java, C, C++</small></p>
+          </div>
+
+          <i class="fas fa-arrow-alt-circle-right arrow-icon"></i>
+
+          <div class="large-icon p-3 text-center">
+            <i class="fas fa-desktop"></i>
+            <p><small>JS, CSS, HTML</small></p>
+          </div>
+
+        </div>
+    </div>
+  </div>
+
+
+
+
   <div class="row">
       <div class="col-12">
         <h1>Skills</h1>
@@ -181,5 +218,4 @@
         </div>
       </div>
   </div>
-
 @endsection
