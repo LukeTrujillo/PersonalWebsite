@@ -37073,10 +37073,19 @@ $(document).ready(function () {
     $(this).children(".left-hr").css("width", "0%");
     $(this).data("startingPercent", $(this).linearScaleOfViewportLocation());
   });
-  $(".fadeInContent").each(function () {
+  $(".view-fade").each(function () {
     $(this).hide();
   });
   $(window).scroll(function () {
+    $(".view-fade").each(function () {
+      var percent = $(this).linearScaleOfViewportLocation();
+      console.log(percent);
+
+      if ($(this).is(":hidden") && percent > 0.80) {
+        $(this).finish().fadeOut();
+        $(this).fadeIn(2000);
+      }
+    });
     $(".line-header").each(function () {
       var percent = $(this).linearScaleOfViewportLocation();
       var upper_limit = 0.75;
@@ -37094,12 +37103,6 @@ $(document).ready(function () {
       }
 
       $(this).children(".left-hr").css("width", 100 * hr_length + "%");
-
-      if (hr_length == 1) {
-        console.log("here");
-        console.log($(this).closest(".fadeInContent").html());
-        $(this).closest(".fadeInContent").fadeIn("slow", 3000);
-      }
     });
   });
 });

@@ -3,9 +3,9 @@ require('./bootstrap');
 $.fn.extend({
   linearScaleOfViewportLocation: function() {
 
-    var viewableOffset = $(this).offset().top - $(window).scrollTop();
+    let viewableOffset = $(this).offset().top - $(window).scrollTop();
 
-    var percent =  ($(window).height() - viewableOffset) / $(window).height();
+    let percent =  ($(window).height() - viewableOffset) / $(window).height();
 
     if(percent < 0) percent = 0;
 
@@ -26,11 +26,28 @@ $(document).ready(function() {
     $(this).data("startingPercent", $(this).linearScaleOfViewportLocation());
   });
 
-  $(".fadeInContent").each(function() {
-      $(this).hide();
+
+
+  $(".view-fade").each(function() {
+    $(this).hide();
   });
 
     $(window).scroll(function() {
+
+      $(".view-fade").each(function() {
+        let percent = $(this).linearScaleOfViewportLocation();
+        console.log(percent);
+        if($(this).is(":hidden") && percent > 0.80) {
+          $(this).finish().fadeOut();
+          $(this).fadeIn(2000);
+        }
+
+      })
+
+
+
+
+
 
       $(".line-header").each(function() {
 
@@ -52,14 +69,6 @@ $(document).ready(function() {
         }
 
         $(this).children(".left-hr").css("width", (100 * hr_length) + "%");
-
-
-        if(hr_length == 1 ) {
-          console.log("here");
-
-          console.log(  $(this).closest(".fadeInContent").html());
-          $(this).closest(".fadeInContent").fadeIn("slow", 3000);
-        }
       });
 
 
