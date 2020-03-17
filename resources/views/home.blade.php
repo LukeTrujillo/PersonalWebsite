@@ -118,6 +118,12 @@
           <p>PHP</p>
         </div>
 
+        <div class="text-center px-1">
+          <i class="fab fa-sass fa-5x"></i>
+          <br>
+          <p>Sass</p>
+        </div>
+
 
       </div>
 
@@ -234,26 +240,26 @@
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
     @component("components.project")
       @slot('name')
-        Profilio Website
+        Portfolio Website <span class="badge badge-pill badge-success">Active</span>
       @endslot
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-      maximus leo a justo imperdiet, eget cursus quam commodo.
+      After working on many projects, I built this website to display my work and connect with
+      future clients, employers, and professionals.
 
       @slot('button')
-          <a href="#" class="btn btn-primary mt-1">View on Github</a>
+          <a href="https://github.com/LukeTrujillo/PersonalWebsite" class="btn btn-primary mt-5 mb-0">View on Github</a>
       @endslot
 
     @endcomponent
     @component("components.project")
       @slot('name')
-        Profilio Website
+        Diodeck <span class="badge badge-pill badge-secondary">In Haitus</span>
       @endslot
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-      maximus leo a justo imperdiet, eget cursus quam commodo.
+      Currently in hiatus, this is a eLearning platform that teaches people who to build circuits
+      and write code through innovative hands-on learning. This platform was used by over 100
+      people and recieved over $10,000 in funding from donors and academic institutions.
+
     @endcomponent
     @component("components.project")
       @slot('name')
