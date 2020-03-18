@@ -237,8 +237,12 @@
   </div>
 
 
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+  <div class="row row-cols-1 row-cols-md-2">
     @component("components.project")
+      @slot('path')
+        /img/resume_site.PNG
+      @endslot
+
       @slot('name')
         Portfolio Website <span class="badge badge-pill badge-success">Active</span>
       @endslot
@@ -252,32 +256,19 @@
 
     @endcomponent
     @component("components.project")
+      @slot('path')
+        /img/diodeck_site.PNG
+      @endslot
       @slot('name')
         Diodeck <span class="badge badge-pill badge-secondary">In Haitus</span>
       @endslot
 
       Currently in hiatus, this is a eLearning platform that teaches people who to build circuits
-      and write code through innovative hands-on learning. This platform was used by over 100
+      and write code through innovative hands-on learning.
+      <br>
+      Diodeck was vistied by thousands of people
       people and recieved over $10,000 in funding from donors and academic institutions.
 
-    @endcomponent
-    @component("components.project")
-      @slot('name')
-        Profilio Website
-      @endslot
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-      maximus leo a justo imperdiet, eget cursus quam commodo.
-    @endcomponent
-    @component("components.project")
-      @slot('name')
-        Profilio Website
-      @endslot
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-      maximus leo a justo imperdiet, eget cursus quam commodo.
     @endcomponent
   </div>
 
@@ -289,44 +280,61 @@
 
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
     @component("components.project")
-      @slot('name')
-        Profilio Website
+      @slot('path')
+        /img/ink_ahead_site.PNG
       @endslot
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-      maximus leo a justo imperdiet, eget cursus quam commodo.
+
+      @slot('name')
+        Ink Ahead
+      @endslot
+
+      Designed, built, and maintained website for small apparell company, Ink Ahead.
+      <br>
+      This was used as the primary point of sale for the company for over four months.
+      The company later decided to rebrand and the website was shut down.
     @endcomponent
     @component("components.project")
-      @slot('name')
-        Profilio Website
+      @slot('path')
+        /img/jit_site.PNG
       @endslot
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-      maximus leo a justo imperdiet, eget cursus quam commodo.
+      @slot('name')
+        Just in Time Realty
+      @endslot
+
+      Designed and development website for local realtor interested in renting properties
+      to tourists. After 4 months of paid development, the development of the project was
+      halted because of a change in business strategy.
+    @endcomponent
+    @component("components.project")
+      @slot('path')
+        /img/dj_spotify_site.PNG
+      @endslot
+
+      @slot('name')
+        DJ Spotify
+      @endslot
+
+      Developed collaborative queue and dynamic shuffle using the Spotify API during
+      a 24 hour hackathon at Wentworth Institute of Technology. This would go on win
+      the hackathon category for "Best Software"
+    @endcomponent
+    @component("components.project")
+      @slot('path')
+        /img/aiman_site.PNG
+      @endslot
+
+      @slot('name')
+        Resume Website
+      @endslot
+
+      Designed, built, and maintain resume website for young professional. The website
+      was built to the clients standards.
 
       @slot('button')
-        <a href="#" class="btn btn-primary mt-1">Go somewhere</a>
+        <a href="http://www.aimannajah.com" target="_blank" class="btn btn-primary mt-1">Visit Website</a>
       @endslot
-    @endcomponent
-    @component("components.project")
-      @slot('name')
-        Profilio Website
-      @endslot
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-      maximus leo a justo imperdiet, eget cursus quam commodo.
-    @endcomponent
-    @component("components.project")
-      @slot('name')
-        Profilio Website
-      @endslot
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-      maximus leo a justo imperdiet, eget cursus quam commodo.
     @endcomponent
   </div>
 
