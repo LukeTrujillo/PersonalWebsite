@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Luke Trujillo</title>
 
 
         <script src="/js/app.js"></script>
@@ -15,7 +15,7 @@
     </head>
     <body id="fixed-background">
         <!--wrapper-->
-        <div class="shadow-lg" id="wrapper">
+        <div id="wrapper">
           @component("components.businesscard")
           @endcomponent
           <div class="container" id="main-page">

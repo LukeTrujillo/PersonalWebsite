@@ -89,9 +89,13 @@ h1, h2, h3 {
 
 
 .businesscard img {
-  max-width: 400px;
   border: solid $body-bg 0.5rem;
 }
+
+@media only screen and (min-width: 992px) {
+  .businesscard img {  max-width: 400px; }
+}
+
 
 .businesscard {
   border-radius: 0.5rem;

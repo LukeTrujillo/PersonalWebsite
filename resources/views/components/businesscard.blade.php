@@ -5,29 +5,20 @@
     </div>
     <div class="col-12 col-lg-6 py-4 my-auto text-center text-lg-left">
 
-      <!--<h1>
-        <span class="attention-header">Hey, i'm</span>
-
-        <br>
-
-        Luke Trujillo
-      </h1>-->
       <h1><span class="attention-header-2">Hello! I'm </span> <br> <span class="attention-header">Luke Trujillo</span></h1>
 
       <p class="mb-0 text-primary"><b> Worcester Polytechnic Institute '21</b></p>
       <p><small>Computer Science &amp; Robotics Engineering</small></p>
 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas
-        hendrerit nisi, fermentum scelerisque lacus placerat ut. Suspendisse gravida
-        magna ut tellus accumsan, non interdum mi volutpat. Nullam at dui eleifend,
-        cursus elit non, consequat arcu. Aenean a nisl laoreet, hendrerit tortor ut,
-        viverra risus.
+        Welcome to my website! I'm a boston-based developer and engineer with a wide
+        spread of technical and interpersonal skills. If you would like a copy of
+        my resume, please click the button below.
       </p>
 
-      <div class="d-block mb-auto">
+      <div class="d-block mb-auto px-5 px-lg-0">
 
-        <form class="px-5 px-lg-0">
+      <!--  <form class="px-5 px-lg-0">
             <p class="mb-0 text-left"><small>Need a copy of my resume?</small></p>
             <div class="form-row">
               <div class="col-9">
@@ -38,10 +29,14 @@
               </div>
             </div>
         </form>
-
-
+      -->
+        <p class="mb-0 text-left"><small>Need a copy of my resume?</small></p>
+        <a href="LukeTrujilloResume.pdf" class="btn btn-primary mb-2 btn-block" download>Download</a>
 
       </div>
+
+
+
     </div>
   </div>
 </div>

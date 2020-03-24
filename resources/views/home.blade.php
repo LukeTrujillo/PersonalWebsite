@@ -12,8 +12,8 @@
       <div class="col-12">
         <p class="lead">
           I'm a student at <a href="#">Worcester Polytechnic Insitute (WPI)</a> pursuing a double major in <span class="text-primary"><b>Computer Science &
-          Robotics Engineering</b></span>. I have a GPA of <b>3.80</b> and are involved with <a href="#">
-          many clubs/organizations</a>. My skill set is robust and versatile. I can do everything
+          Robotics Engineering</b></span>. I have a GPA of <b>3.80</b> and are involved with
+          many clubs/organizations. My skill set is robust and versatile. I can do everything
           from fullstack development to logic gate programming. People would describe me as
           hard-working and goal-driven. I'm always looking for new projects to get involved with!
         </p>
@@ -29,24 +29,19 @@
           </div>
         </div>
 
-        <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-          maximus leo a justo imperdiet, eget cursus quam commodo.
-        </p>
       </div>
   </div>
   @component("components.line_header")
   Skills
   @endcomponent
   <div class="row">
-    <div class="col-12">
+    <div class="col-12 text-center text-md-left">
       <h4>Full Stack Development</h4>
     </div>
   </div>
   <div class="row">
     <div class="col-12">
-        <div class="d-flex flex-row justify-content-around align-items-center">
+        <div class="d-none d-md-flex flex-row justify-content-around align-items-center">
           <div class="large-icon p-3 text-center view-fade">
             <i class="fas fa-database gray-icon"></i>
             <p><small>SQL, Oracle, MongoDB</small></p>
@@ -66,11 +61,11 @@
             <p><small>JS, CSS, HTML</small></p>
           </div>
         </div>
-        <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          placerat orci sit amet turpis consequat, et efficitur leo sodales. Nullam
-          maximus leo a justo imperdiet, eget cursus quam commodo. Praesent tellus diam,
-          finibus ut feugiat quis, consequat in mauris.
+        <p class="lead text-center text-md-left">
+          On numerous projects, I have been tasked with doing full-stack development
+          starting with UX design and ending with server management. I love working
+          on a project from the start and being able to watch it grow into
+          something great!
         </p>
     </div>
   </div>
@@ -78,7 +73,7 @@
   <div class="row">
     <div class="col-12">
 
-      <h4>Programming Languages</h4>
+      <h4 class="text-center text-md-left">Programming Languages</h4>
       <div class="d-flex flex-row justify-content-around align-items-center flex-wrap">
 
 
@@ -127,8 +122,8 @@
 
       </div>
 
-      <h4>Frameworks & APIs</h4>
-      <div class="d-flex flex-row justify-content-around align-items-center flex-wrap">
+      <h4 class="text-center text-md-left">Frameworks & APIs</h4>
+      <div class="d-flex flex-row justify-content-around align-items-center flex-wrap view-fade">
         <div class="text-center px-1">
           <i class="fab fa-laravel fa-5x"></i>
           <br>
@@ -186,8 +181,8 @@
         </div>
       </div>
 
-      <h4>Databases & Other</h4>
-      <div class="d-flex flex-row justify-content-around align-items-center flex-wrap">
+      <h4 class="text-center text-md-left">Databases & Other</h4>
+      <div class="d-flex flex-row justify-content-around align-items-center flex-wrap view-fade">
         <div class="text-center px-1">
           <i class="fas fa-database fa-5x"></i>
           <br>
@@ -251,7 +246,7 @@
       future clients, employers, and professionals.
 
       @slot('button')
-          <a href="https://github.com/LukeTrujillo/PersonalWebsite" class="btn btn-primary mt-5 mb-0">View on Github</a>
+          <a href="https://github.com/LukeTrujillo/PersonalWebsite" class="btn btn-sm btn-primary">View on Github</a>
       @endslot
 
     @endcomponent
@@ -333,10 +328,8 @@
       was built to the clients standards.
 
       @slot('button')
-        <a href="http://www.aimannajah.com" target="_blank" class="btn btn-primary mt-1">Visit Website</a>
+        <a href="http://www.aimannajah.com" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
       @endslot
     @endcomponent
   </div>
-
-
 @endsection

@@ -17366,8 +17366,13 @@ h3 {
 }
 
 .businesscard img {
-  max-width: 400px;
   border: solid #f8fafc 0.5rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .businesscard img {
+    max-width: 400px;
+  }
 }
 
 .businesscard {
